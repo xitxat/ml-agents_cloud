@@ -13,4 +13,4 @@ def speak(text, lang='en-US'):
     # Clear the JS so that the notebook doesn't speak again when reopened/refreshed
     clear_output(False)
 
-# usage :: speak("Cell completed!", lang='en-US')
+# usage ::: speak("Cell completed!", lang='en-US')
