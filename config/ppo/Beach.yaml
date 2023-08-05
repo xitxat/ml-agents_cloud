@@ -25,9 +25,9 @@ behaviors:
             curiosity:
                 gamma: 0.99
                 strength: 0.02      #   def: 0.02 [MAX Explore: 0.1] ratio to Extrinsic strength
-                encoding_size: 128  #   def: 64
                 network_settings:
                     hidden_units: 256
+                    encoding_size: 128  #   def: 64
                 learning_rate: 0.0003   #   update the intrinsic curiosity module
         max_steps: 2000000
         time_horizon: 512           #   256 experience will be divided into segments of t_h.    Typical Range: 32 - 2048
